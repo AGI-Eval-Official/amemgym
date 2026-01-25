@@ -1,0 +1,27 @@
+{
+    "env_data_path": "data/v1.base/data.json",
+    "random_path": "eval-output/v1.base/random_metrics.json",
+    "output_dir": "figures/agent",
+    "agents": [
+        {
+            "name": "LLM",
+            "output_dir": "eval-output/v1.base/native/gpt-4.1-mini",
+            "util_path": "eval-output/v1.base/llm-utilization/gpt-4.1-mini/utilization_metrics.json"
+        },
+        {
+            "name": "AWE-(2,4,30)",
+            "output_dir": "eval-output/v1.base/AWE/gpt-4.1-mini-awe-freq2-ns4-topk30",
+            "util_path": "eval-output/v1.base/llm-utilization/gpt-4.1-mini/utilization_metrics.json"
+        },
+        {
+            "name": "RAG-(2,4,30)",
+            "output_dir": "eval-output/v1.base/RAG/gpt-4.1-mini-rag-freq2-ns4-topk30",
+            "util_path": "eval-output/v1.base/llm-utilization/gpt-4.1-mini/utilization_metrics.json"
+        },
+        {
+            "name": "AWI",
+            "output_dir": "eval-output/v1.base/AWI/gpt-4.1-mini-awi-freq2-ns4",
+            "util_path": "eval-output/v1.base/llm-utilization/gpt-4.1-mini/utilization_metrics.json"
+        }
+    ]
+}

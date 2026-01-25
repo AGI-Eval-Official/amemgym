@@ -1,0 +1,20 @@
+__pycache__
+tmp.ipynb
+tmp.py
+tmp/
+memenv.egg-info/
+# outputs/
+eval-output/evaluate.log
+eval-output/*.log
+outputs/jupyter_debug/
+# exact dependencies
+uv.lock
+tmp*
+eval-output/small/in_context_agent/*
+*.log
+*.DS_Store
+# environment variables
+# .env
+# virtual environment
+.venv/
+.env-private

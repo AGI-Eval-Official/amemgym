@@ -1,0 +1,45 @@
+{
+    "type": "rag",
+    "name": "rag-freq2-ns4-topk30",
+    "llm_config": {
+        "base_url": null,
+        "api_key": null,
+        "llm_model": "gpt-4.1-mini",
+        "temperature": 0.0,
+        "max_tokens": 8192,
+        "source": "agent:interaction"
+    },
+    "memory_config": {
+        "vector_store": {
+            "provider": "milvus",
+            "config": {
+                "url": null,
+                "collection_name": "mem_eval"
+            }
+        },
+        "llm": {
+            "provider": "openai",
+            "config": {
+                "openai_base_url": null,
+                "api_key": null,
+                "model": "gpt-4.1-mini"
+            }
+        },
+        "embedder": {
+            "provider": "openai",
+            "config": {
+                "openai_base_url": null,
+                "api_key": null,
+                "model": "text-embedding-3-small"
+            }
+        },
+        "history_db_path": null,
+        "version": "v1.1"
+    },
+    "agent_config": {
+        "update_bsz": 2,
+        "top_k": 30,
+        "local_length": 4,
+        "enable_llm_mem_policy": false
+    }
+}
