@@ -87,6 +87,9 @@ uv run python -m amemgym.eval.overall \
 | **Native** | Native LLM (no memory system) | `configs/agent/native.json` |
 
 
+You can customize your own agent configurations or even create new agent types by following the interface in `amemgym.assistants.base.BaseAgent`.
+
+
 #### Running Upper-Bound and Random Baselines
 Use the following commands to run upper-bound and random baseline evaluations for normalized memory scores.
 
@@ -145,4 +148,3 @@ If you find AMemGym useful for your research, please cite our paper:
     url={https://openreview.net/forum?id=sfrVLzsmlf}
 }
 ```
-
