@@ -212,6 +212,7 @@ if __name__ == "__main__":
     data = load_json(args.env_data)
     for item in data:
         item_dir = os.path.join(output_dir, item["id"])
+        os.makedirs(item_dir, exist_ok=True)
         if agent_config["type"] == "awi-hack":
             agent = create_agent(agent_config, output_dir=item_dir, item=item)
         else:

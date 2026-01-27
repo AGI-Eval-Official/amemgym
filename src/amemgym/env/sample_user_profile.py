@@ -39,7 +39,7 @@ def sample_nemotron_persona(
     Returns:
         list[dict]: List of sampled persona dictionaries.
     """
-    df = pd.read_parquet(file_path, engine="pyarrow")
+    df = pd.read_parquet(file_path, engine="pyarrow").fillna("")
     logger.info(f"Loaded {len(df)} personas from {file_path}")
     
     # Exclude personas with matching UUIDs if exclude_ids is provided

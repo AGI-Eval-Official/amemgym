@@ -34,6 +34,10 @@ AMemGym is the first **interactive, on-policy evaluation framework** for convers
 git clone https://github.com/your-org/amemgym.git
 cd amemgym
 
+# Create and activate a virtual environment (optional but recommended)
+uv venv
+source .venv/bin/activate 
+
 # Install with uv (recommended)
 uv sync
 
