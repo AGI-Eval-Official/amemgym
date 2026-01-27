@@ -122,7 +122,7 @@ def evaluate_utilization(data, llm_config, output_dir):
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Evaluate utilization metrics for given llms.")
-    parser.add_argument("--data_file", type=str, default="data/v1.base/data.json")
+    parser.add_argument("--env_data", type=str, default="data/v1.base/data.json")
     parser.add_argument("--output_dir", type=str, default="eval-output/v1.base/ub")
     parser.add_argument("--agent_config", type=str, default="configs/agents/native.json")
     args = parser.parse_args()
@@ -135,7 +135,7 @@ if __name__ == "__main__":
         "source": "agent:ub-eval"
     }
 
-    data = load_json(args.data_file)
+    data = load_json(args.env_data)
 
     output_dir = os.path.join(args.output_dir, llm_config["llm_model"])
     os.makedirs(output_dir, exist_ok=True)

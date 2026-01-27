@@ -25,12 +25,12 @@ def evaluate_random(data, metric):
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Evaluate random strategy.")
-    parser.add_argument("--data_file", type=str, default="data/v1.base/data.json")
+    parser.add_argument("--env_data", type=str, default="data/v1.base/data.json")
     parser.add_argument("--output_file", type=str, default="eval-output/v1.base/random_metrics.json")
     args = parser.parse_args()
 
     # Load data
-    with open(args.data_file, "r", encoding="utf-8") as f:
+    with open(args.env_data, "r", encoding="utf-8") as f:
         data = json.load(f)
     
     # Evaluate the data
