@@ -1,14 +1,14 @@
 <h1 align="center">AMemGym: Interactive Memory Benchmarking for Assistants in Long-horizon Conversations</h1>
 
 <p align="center">
-    <a href="https://xxx.github.io/amemgym"><img src="https://img.shields.io/badge/Project-Website-blue" alt="Website"></a>
-    <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg" alt="Paper"></a>
-    <a href="https://huggingface.co/datasets/xxx/amemgym"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Dataset-green" alt="Dataset"></a>
-    <a href="https://github.com/xxx/amemgym"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
-    <a href="https://github.com/xxx/amemgym/blob/main/LICENSE"><img src="https://img.shields.io/github/license/xxx/amemgym?color=blue" alt="License"></a>
+    <a href="https://agi-eval-official.github.io/amemgym/#/"><img src="https://img.shields.io/badge/Project-Website-blue" alt="Website"></a>
+    <a href="https://arxiv.org/abs/comming-soon"><img src="https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg" alt="Paper"></a>
+    <a href="https://huggingface.co/datasets/AGI-Eval/AMemGym"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Dataset-green" alt="Dataset"></a>
+    <a href="https://github.com/AGI-Eval-Official/amemgym"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
+    <a href="https://github.com/AGI-Eval-Official/amemgym/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
 </p>
 
-This repo contains the code and data for the paper: *[AMemGym: Interactive Memory Benchmarking for Assistants in Long-horizon Conversations](https://arxiv.org/abs/xxxx.xxxxx)*.
+This repo contains the code and data for the paper: *[AMemGym: Interactive Memory Benchmarking for Assistants in Long-horizon Conversations](https://openreview.net/forum?id=sfrVLzsmlf)*.
 
 ---
 
@@ -96,7 +96,13 @@ uv run python -m amemgym.eval.evolution \
 If you find AMemGym useful for your research, please cite our paper:
 
 ```bibtex
-@inproceedings{amemgym2026,
+@inproceedings{
+    jiayang2026amemgym,
+    title={{AM}emGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations},
+    author={Cheng Jiayang and Dongyu Ru and Lin Qiu and Yiyang Li and Xuezhi Cao and Yangqiu Song and Xunliang Cai},
+    booktitle={The Fourteenth International Conference on Learning Representations},
+    year={2026},
+    url={https://openreview.net/forum?id=sfrVLzsmlf}
 }
 ```
 
