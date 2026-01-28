@@ -111,7 +111,7 @@ uv run python -m amemgym.eval.random \
 ```
 
 #### (Optional) Running Fine-Grained Diagnostics
-```
+```bash
 # Run fine-grained diagnostics for a specific agent configuration
 uv run python -m amemgym.eval.diagnosis \
     --agent_config <a specific agent config, e.g., configs/agent/awi.json> \
