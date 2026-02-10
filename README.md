@@ -6,6 +6,7 @@
     <a href="https://huggingface.co/datasets/AGI-Eval/AMemGym"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Dataset-green" alt="Dataset"></a>
     <a href="https://github.com/AGI-Eval-Official/amemgym"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
     <a href="https://github.com/AGI-Eval-Official/amemgym/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+    <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FAGI-Eval-Official%2Famemgym&label=Visitors&icon=github&color=%23198754&message=&style=flat&tz=UTC" alt="Visitors">
 </p>
 
 This repo contains the code and data for the paper: *[AMemGym: Interactive Memory Benchmarking for Assistants in Long-horizon Conversations](https://openreview.net/forum?id=sfrVLzsmlf)*.
